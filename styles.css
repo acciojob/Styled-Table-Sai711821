@@ -1,1 +1,27 @@
 /* your code */
+table{
+	border-collapse:collapse;
+	margin:25px 0;
+	min-width:500px;
+	border-radius:10px;
+	overflow:hidden;
+	
+	
+}
+table thead tr{
+	 background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+table th, table td{
+	padding:12px 15px;
+}
+table tbody tr{
+	border-bottom: 1px solid #dddddd;
+}
+table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
